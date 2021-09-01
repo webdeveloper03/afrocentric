@@ -1,0 +1,37 @@
+.center-block {
+    background-image: url(../images/Main-banner.jpg");
+}
+
+.center-block > .btn-primary {
+    padding: 20px 40px 20px 40px;
+    margin: 0px 0px 0px 0px;
+}
+
+.center-block {
+    box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.75);
+}.image-header {
+	background-image: url(public/images/header-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	padding: 300px 0 200px;
+	color: #fff;
+}
+
+.image-header > h1 {
+	font-size: 75px;
+	font-weight: 700;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+.image-header > h3 {
+	font-size: 40px;
+	margin-bottom: 25px;
+	font-style: italic;
+}
+
+.image-header > .btn-lg {
+	padding: 20px 40px;
+	font-size: 18px;
+}

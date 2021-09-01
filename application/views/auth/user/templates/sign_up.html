@@ -1,0 +1,948 @@
+<html lang="en" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <title>Afrocentric - Sign Up</title>
+      <meta content="Afrocentric, your description" name="description">
+      <meta content="Afrocentric Pvt ltd" name="author">
+      <meta content="Afrocentric, your keywords" name="keywords">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <link href="assets/vertical/assets/plugins/magnific-popup/magnific-popup.css?v=4.2" rel="stylesheet" type="text/css">
+      <link href="assets/js/jquery-confirm.min.css?v=4.2" rel="stylesheet">
+      <link href="assets/vertical/assets/plugins/morris/morris.css?v=4.2" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" crossorigin="anonymous">
+      <link href="assets/vertical/assets/css/bootstrap.min.css?v=4.2" rel="stylesheet" type="text/css">
+      <link href="assets/vertical/assets/css/icons.css?v=4.2" rel="stylesheet" type="text/css">
+      <link href="assets/vertical/assets/css/style.css?v=4.2" rel="stylesheet" type="text/css">
+      <link href="assets/vertical/assets/css/style2.css?v=4.2" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" type="text/css" href="assets/vertical/assets/css/fontawesome/css/all.min.css">
+      <link href="assets/vertical/assets/plugins/RWD-Table-Patterns/dist/css/rwd-table.min.css?v=4.2" rel="stylesheet" type="text/css" media="screen">
+      <link rel="icon" href="assets/images/site/Gxc7lWXRSAbUHdaui2oQek9D403Efjw11.png" type="image/*" sizes="16x16">
+      <link href="assets/css/jquery.uploadPreviewer.css?v=4.2" rel="stylesheet" type="text/css" media="screen">
+      <script src="assets/js/jquery.min.js"></script>
+      <style>
+         #preloader{
+         background: #fff !important;
+         color: rgba(0,0,0,0.8);
+         }
+         .lds-roller {
+         display: inline-block;
+         position: relative;
+         width: 80px;
+         height: 80px;
+         }
+         .lds-roller div {
+         animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+         transform-origin: 40px 40px;
+         }
+         .lds-roller div:after {
+         content: " ";
+         display: block;
+         position: absolute;
+         width: 7px;
+         height: 7px;
+         border-radius: 50%;
+         background: #6362bb ;
+         margin: -4px 0 0 -4px;
+         }
+         .lds-roller div:nth-child(1) {
+         animation-delay: -0.036s;
+         }
+         .lds-roller div:nth-child(1):after {
+         top: 63px;
+         left: 63px;
+         }
+         .lds-roller div:nth-child(2) {
+         animation-delay: -0.072s;
+         }
+         .lds-roller div:nth-child(2):after {
+         top: 68px;
+         left: 56px;
+         }
+         .lds-roller div:nth-child(3) {
+         animation-delay: -0.108s;
+         }
+         .lds-roller div:nth-child(3):after {
+         top: 71px;
+         left: 48px;
+         }
+         .lds-roller div:nth-child(4) {
+         animation-delay: -0.144s;
+         }
+         .lds-roller div:nth-child(4):after {
+         top: 72px;
+         left: 40px;
+         }
+         .lds-roller div:nth-child(5) {
+         animation-delay: -0.18s;
+         }
+         .lds-roller div:nth-child(5):after {
+         top: 71px;
+         left: 32px;
+         }
+         .lds-roller div:nth-child(6) {
+         animation-delay: -0.216s;
+         }
+         .lds-roller div:nth-child(6):after {
+         top: 68px;
+         left: 24px;
+         }
+         .lds-roller div:nth-child(7) {
+         animation-delay: -0.252s;
+         }
+         .lds-roller div:nth-child(7):after {
+         top: 63px;
+         left: 17px;
+         }
+         .lds-roller div:nth-child(8) {
+         animation-delay: -0.288s;
+         }
+         .lds-roller div:nth-child(8):after {
+         top: 56px;
+         left: 12px;
+         }
+         @keyframes lds-roller {
+         0% {
+         transform: rotate(0deg);
+         }
+         100% {
+         transform: rotate(360deg);
+         }
+         }
+      </style>
+      <!-- <script src="http://localhost/afrocentric/assets/js/jquery.uploadPreviewer.js"></script> -->
+      <link href="assets/plugins/datetimepicker/jquery.datetimepicker.min.css?v=4.2" rel="stylesheet">
+      <script src="assets/plugins/datetimepicker/jquery.datetimepicker.full.min.js"></script>
+      <link href="assets/plugins/datatable/select2.css?v=4.2" rel="stylesheet">
+      <script src="assets/plugins/datatable/select2.min.js"></script>
+      <link rel="stylesheet" href="assets/css/usercontrol-common.css?v=4.2">
+      <script type="text/javascript" src="assets/sweetalert/sweetalert.min.js"></script>
+      <script type="text/javascript">
+         (function ($) {
+         
+             $.fn.btn = function (action) {
+         
+                 var self = $(this);
+         
+                 var tagName = self.prop("tagName");
+         
+                 if(tagName == 'A'){
+         
+                     if (action == 'loading') {
+         
+                         $(self).attr('data-text',$(self).text());
+         
+                         $(self).text("Loading..");
+         
+                     }
+         
+                     if (action == 'reset') { $(self).text($(self).attr('data-text')); }
+         
+                 }
+         
+                 else {
+         
+                     if (action == 'loading') { $(self).addClass("btn-loading"); }
+         
+                     if (action == 'reset') { $(self).removeClass("btn-loading"); }
+         
+                 }
+         
+             }
+         
+         })(jQuery);
+         
+         
+         
+         var formDataFilter = function(formData) {
+         
+             if (!(window.FormData && formData instanceof window.FormData)) return formData
+         
+             if (!formData.keys) return formData
+         
+             var newFormData = new window.FormData()
+         
+             Array.from(formData.entries()).forEach(function(entry) {
+         
+                 var value = entry[1]
+         
+                 if (value instanceof window.File && value.name === '' && value.size === 0) {
+         
+                     newFormData.append(entry[0], new window.Blob([]), '')
+         
+                 } else {
+         
+                     newFormData.append(entry[0], value)
+         
+                 }
+         
+             })
+         
+             
+         
+             return newFormData
+         
+         }
+         
+      </script>
+      <style type="text/css">/* Chart.js */
+         @keyframes chartjs-render-animation{from{opacity:.99}to{opacity:1}}.chartjs-render-monitor{animation:chartjs-render-animation 1ms}.chartjs-size-monitor,.chartjs-size-monitor-expand,.chartjs-size-monitor-shrink{position:absolute;direction:ltr;left:0;top:0;right:0;bottom:0;overflow:hidden;pointer-events:none;visibility:hidden;z-index:-1}.chartjs-size-monitor-expand>div{position:absolute;width:1000000px;height:1000000px;left:0;top:0}.chartjs-size-monitor-shrink>div{position:absolute;width:200%;height:200%;left:0;top:0}
+      </style>
+   </head>
+   <body class="fixed-left" data-new-gr-c-s-check-loaded="14.1020.0" data-gr-ext-installed="" style="overflow: visible;" cz-shortcut-listen="true">
+      <div id="preloader" style="display: none;">
+         <div id="status" style="display: none;">
+         
+         </div>
+      </div>
+      
+         <style type="text/css">
+            .left.side-menu, .left.side-menu, #sidebar-menu, .left.side-menu, #sidebar-menu .custom-menu-link a{   background : #222224!important;}
+            .left.side-menu #sidebar-menu li:not(.custom-menu-link) a{   background : #222224!important;}
+            /*.left.side-menu #sidebar-menu li:not(.custom-menu-link) a{    color : rgb(255, 255, 255)!important;}*/
+            .left.side-menu #sidebar-menu .custom-menu-link a span{   background : #222224!important;}
+            .left.side-menu #sidebar-menu .custom-menu-link a span{   color : rgb(255, 255, 255)!important;}.reload-btn{
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            }
+         </style>
+         
+         
+               <!-- ==================
+                  Sign Up START
+                  ================== -->
+
+                  <section id="sign-up">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-12 col-md-12 main-col-signup">
+                              <a href="#" class="link-close"><i class="fas fa-times signup-close"></i></a>
+                              <div class="form-parent signup-container m-auto">
+                                 <div class="spans-parent-sign-up">
+                                    <span class="signup-span-1">
+                                       <img style="max-width: 125px;" src="assets/images/site/Dei4vQVCMyr5fAszw38PRamGjH7ISl9O.png" id="logo" class="img-fluid">
+                                    </span>
+                                    <span class="signup-span-2 text-right">
+                                       Sign In
+                                    </span>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                           <label for="exampleInputEmail1">First Name</label>
+                                           <input type="email" class="form-control name-form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First Name">
+                                         </div>
+                                       </form>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                           <label for="exampleInputEmail1">Last Name</label>
+                                           <input type="email" class="form-control signup-formcontrol" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last Name">
+                                         </div>
+                                       </form>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                           <label for="exampleInputEmail1">Username</label>
+                                           <input type="email" class="form-control signup-formcontrol" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Username here">
+                                         </div>
+                                       </form>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                           <label for="exampleInputEmail1">Email</label>
+                                           <input type="email" class="form-control signup-formcontrol" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="emila@yahoo.com">
+                                         </div>
+                                       </form>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                              <label for="exampleInputPassword1">Password</label>
+                                              <input type="password" class="form-control signup-formcontrol" id="exampleInputPassword1" placeholder="*********">
+                                            </div>
+                                       </form>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                       <form>
+                                          <div class="form-group">
+                                              <label for="exampleInputPassword1">Confirm Password</label>
+                                              <input type="password" class="form-control signup-formcontrol" id="exampleInputPassword1" placeholder="*********">
+                                            </div>
+                                       </form>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-12 col-md-12 signup-terms">
+                                       <p>
+                                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                          <label class="form-check-label" for="exampleCheck1"></label>
+                                          I agree to Afrocentric Kulture's <span>Terms and Conditions</span>
+                                       </p>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-12 col-md-12">
+                                       <button class="btn btn-primary sign-btn-1">Continue</button>
+                                    </div>
+                                 </div>
+                                 <div class="row">
+                                    <div class="col-12 col-md-12 text-center">
+                                       <p class="p-sign-suggest">Or sign up with</p>
+                                    </div>
+                                 </div>
+                                 <div class="row justify-content-center">
+                                    <div class="col-6 col-md-6 text-right">
+                                       <a href="#" class="sign-up-social-links-facebook">
+                                          <i class="signup-facebook fab fa-facebook-f"></i>
+                                       </a>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                       <a href="#" class="sign-up-social-links">
+                                          <img src="assets/images/googlee.png">
+                                       </a>
+                                    </div>
+                                 </div>
+                                 <div class="row row-suggest">
+                                    <div class="col-6 col-md-6 text-center">
+                                       <p class="want-sell">Want to sell with us?</p>
+                                    </div>
+                                    <div class="col-6 col-md-6">
+                                       <a href="Sign Up.html" class="btn btn-primary sign-btn-2">Join Our Team</a>
+                                    </div>
+                                 </div>
+                              </div>   
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+
+               <!-- ==================
+                  Sign Up ENDS
+               ================== -->
+               
+               <style type="text/css">
+                  .navbar-custom, .navbar-custom .button-menu-mobile{    background : rgb(255, 255, 255)!important;}
+                  .navbar-custom ul li > a, .navbar-custom ul li > a > i, .navbar-custom .button-menu-mobile{   color : rgb(0, 0, 0)!important;}
+                  .navbar-custom li.language > a{   color : rgb(0, 0, 0)!important;}
+                  .navbar-custom li.currency > a{   color : rgb(0, 0, 0)!important;}
+                  .alert-icon > a > i{  color : rgb(0, 0, 0)!important;}
+                  .user-menu .profile-dropdown{  background : rgb(136, 99, 246)!important;}
+                  .user-menu .profile-dropdown > a{    background : rgb(136, 99, 246)!important;}
+                  .user-menu .profile-dropdown > a, .user-menu .profile-dropdown > a > i{  color : rgb(255, 255, 255)!important;}
+                  .topbar-left{   background : rgb(52, 58, 64)!important;}
+                  .topbar-left > a{  color : rgb(255, 255, 255)!important;}
+               </style>
+               
+               <link rel="stylesheet" type="text/css" href="assets/plugins/flag/css/main.min.css">
+               <link rel="stylesheet" type="text/css" href="assets/plugins/table/datatables.min.css">
+               <script type="text/javascript" src="assets/plugins/table/datatables.min.js"></script>
+               <script type="text/javascript" src="assets/plugins/table/dataTables.responsive.min.js"></script>
+               <style>
+                  .counter{
+                  font-size: 1.7vw;
+                  font-weight: bold;
+                  }
+                  .market-tool-card .card-body{
+                  height: 280px !important;
+                  overflow:auto;
+                  }
+                  @media(max-width: 1200px){
+                  .counter{
+                  font-size: 1.3rem;
+                  }
+                  }
+               </style>
+               
+               <!------AFFILIATE LINKS END--------->
+               <link rel="stylesheet" type="text/css" href="assets/plugins/social-share/social-share.css">
+               
+      <script src="assets/js/jquery-confirm.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/modernizr.min.js"></script>
+      <script src="assets/js/detect.js"></script>
+      <script src="assets/js/fastclick.js"></script>
+      <script src="assets/js/jquery.slimscroll.js"></script>
+      <script src="assets/js/jquery.blockUI.js"></script>
+      <script src="assets/js/waves.js"></script>
+      <script src="assets/js/jquery.nicescroll.js"></script>
+      <script src="assets/js/jquery.scrollTo.min.js"></script>
+      <script src="assets/vertical/assets/plugins/skycons/skycons.min.js"></script>
+      <script src="assets/vertical/assets/plugins/raphael/raphael-min.js"></script>
+      <script src="assets/vertical/assets/plugins/morris/morris.min.js"></script>
+      <script src="assets/js/dashborad.js"></script>
+      <script src="assets/js/jssocials-1.4.0/jssocials.min.js"></script>
+      <link type="text/css" rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials.css">
+      <link type="text/css" rel="stylesheet" href="assets/js/jssocials-1.4.0/jssocials-theme-flat.css">
+      <link href="assets/js/summernote-0.8.12-dist/summernote-bs4.css" rel="stylesheet">
+      <script src="assets/js/summernote-0.8.12-dist/summernote-bs4.js"></script>
+      <link href="assets/vertical/assets/css/style.css?v=4.2" rel="stylesheet" type="text/css">
+      
+      <script type="text/javascript">
+         $(document).delegate('[name="slug"]','keyup',function(){
+            var slug = $(this).val();
+            var base_url = "http://localhost/afrocentric/";
+            $('#form-create-slug').find('.div-slug-url input').val(base_url+slug);
+         });
+         $(document).delegate('.btn-model-slug', 'click', function(){
+             $form = $('#form-create-slug');
+             $form[0].reset();
+             $form.find(".alert").remove();
+             $form.find(".has-error").removeClass("has-error");
+             $form.find("span.text-danger").remove();
+         
+             var type = $(this).attr('data-type');
+             var related_id = $(this).attr('data-related-id');
+             var target = $(this).attr('data-input-class');
+         
+             $this = $(this);
+             $.ajax({
+                 url:"http://localhost/afrocentric/usercontrol/get_slug",
+                 type:'POST',
+                 dataType:'json',
+                 data:{
+                     type: type,
+                     related_id: related_id
+                 },
+                 beforeSend:function(){$this.btn("loading");},
+                 complete:function(){$this.btn("reset");},
+                 success:function(json){
+                     $form.find('.div-slug-url').hide();
+                     $form.find('.btn-delete-slug').hide();
+                     
+                     if(json['success']){
+                        $form.find('.div-slug-url button').attr('copytoclipboard',json.slug_url);
+                        $form.find('.div-slug-url input').val(json.slug_url);
+                        $form.find('.btn-delete-slug').show();
+                        $form.find('.div-slug-url').show();
+                         $('#modal-create-slug').find('[name="slug"]').val(json['slug']);
+                     }
+         
+                     $('#modal-create-slug').find('[name="type"]').val(type);
+                     $('#modal-create-slug').find('[name="related_id"]').val(related_id);
+                     $('#modal-create-slug').find('[name="target"]').val(target);
+                     $('#modal-create-slug').modal({'keyboard':false, 'backdrop': 'static'});
+                 },
+             })
+         });
+         $('#modal-create-slug').delegate('#form-create-slug', 'submit', function(e){
+             e.preventDefault();
+         
+             $this = $(this);
+             $this_btn = $this.find('[name="create_slug"]');
+             $target = $this.find('[name="target"]').val();
+             
+             $.ajax({
+                 url:$this.attr('action'),
+                 type:'POST',
+                 dataType:'json',
+                 data:$this.serialize(),
+                 beforeSend:function(){$this_btn.btn("loading");},
+                 complete:function(){$this_btn.btn("reset");},
+                 success:function(json){
+                     $container = $this;
+                     $container.find(".has-error").removeClass("has-error");
+                     $container.find("span.text-danger").remove();
+                     $container.find(".alert").remove();
+                     
+                     if(json['errors']){
+                         $.each(json['errors'], function(i,j){
+                             $ele = $container.find('[name="'+ i +'"]');
+                             if($ele){
+                                 $ele.parents(".form-group").addClass("has-error");
+                                 $ele.after("<span class='text-danger'>"+ j +"</span>");
+                             }
+                         })
+                         $this.find('.div-slug-url').hide();
+                     }
+         
+                     if(json['error']){
+                         $this.find('.modal-body').prepend('<div class="alert bg-danger text-white">'+json['error']+'</div>');
+                     }
+         
+                     if(json['success']){
+                        $.each($('.'+$target), function(k,v){
+                           if($(v).attr('data-addition-url')){
+                              var addition_url = $(v).attr('data-addition-url');
+                              $(v).val(json.slug_url + addition_url);
+                              $(v).next('[copyToClipboard]').attr('copyToClipboard', json.slug_url + addition_url);
+                           }else{
+                              $(v).val(json.slug_url);
+                              $(v).next('[copyToClipboard]').attr('copyToClipboard', json.slug_url);
+                           }
+                        });
+         
+                        $this.find('.div-slug-url').show();
+                         $this.find('.div-slug-url button').attr('copytoclipboard',json.slug_url);
+                         $this.find('.div-slug-url input').val(json.slug_url);
+                         $this.find('.modal-body').prepend('<div class="alert alert-success">'+json['success']+'</div>');
+                     }
+                 },
+             })
+         });
+         
+         $('#modal-create-slug').delegate('.btn-delete-slug', 'click', function(){
+             if(!confirm('Are you sure?')) return false;
+         
+             $this = $('#form-create-slug');
+             $this_btn = $(this);
+             $target = $this.find('[name="target"]').val();
+             
+             $.ajax({
+                 url: 'http://localhost/afrocentric/usercontrol/delete_slug',
+                 type:'POST',
+                 dataType:'json',
+                 data:$this.serialize(),
+                 beforeSend:function(){$this_btn.btn("loading");},
+                 complete:function(){$this_btn.btn("reset");},
+                 success:function(json){
+                     $container = $this;
+                     $container.find(".alert").remove();
+                     
+                     if(json['error']){
+                         $this.find('.modal-body').prepend('<div class="alert alert-danger">'+json['error']+'</div>');
+                     }
+         
+                     if(json['success']){
+                        $.each($('.'+$target), function(k,v){
+                           if($(v).attr('data-addition-url')){
+                              var addition_url = $(v).attr('data-addition-url');
+                              $(v).val(json.url + addition_url);
+                              $(v).next('[copyToClipboard]').attr('copyToClipboard', json.url + addition_url);
+                           }else{
+                              $(v).val(json.url);
+                              $(v).next('[copyToClipboard]').attr('copyToClipboard', json.url);
+                           }
+                        });
+         
+                        $this.find('.div-slug-url').hide();
+                         $this.find('.div-slug-url input').val(json.url);
+                         $this.find('[name="slug"]').val('');
+                         $this_btn.hide();
+                         $this.find('.modal-body').prepend('<div class="alert alert-success">'+json['success']+'</div>');
+                         setTimeout(function(){
+                           $('#modal-create-slug').modal('hide');
+                         }, 2000);
+                     }
+                 },
+             })
+         });
+      </script>
+      <!-- App js -->
+      <script src="assets/js/app.js"></script>
+      <script type="text/javascript">
+         $(".select2-input").select2();
+         
+         $(document).delegate(".only-number-allow","keypress",function (e) {
+               if (e.which != 46 && e.which != 8 && e.which != 0 && (e.which < 48 || e.which > 57)) {
+                     return false;
+               }
+            });
+         
+         function readURL(input,placeholder) {
+           if (input.files && input.files[0]) {
+             var reader = new FileReader();
+             
+             reader.onload = function(e) {
+               $(placeholder).attr('src', e.target.result);
+             }
+             
+             reader.readAsDataURL(input.files[0]);
+           }
+         }
+         
+         function sumNote(element){
+               
+                var height = $(element).attr("data-height") ? $(element).attr("data-height") : 500;
+                $(element).summernote({
+                    disableDragAndDrop: true,
+                    height: height,
+                    toolbar: [
+                        ['style', ['style']],
+                        ['font', ['bold', 'underline', 'clear']],
+                        ['fontname', ['fontname']],
+                        ['color', ['color']],
+                        ['para', ['ul', 'ol', 'paragraph']],
+                        ['table', ['table']],
+                        ['insert', ['link', 'image', 'video']],
+                        ['view', ['fullscreen', 'codeview', 'help']]
+                    ],
+                    buttons: {
+                        image: function() {
+                            var ui = $.summernote.ui;
+                            // create button
+                            var button = ui.button({
+                                contents: '<i class="fa fa-image" />',
+                                tooltip: false,
+                                click: function () {
+                                    $('#modal-image').remove();
+                                
+                                    $.ajax({
+                                        url: 'http://localhost/afrocentric/filemanager',
+                                        dataType: 'html',
+                                        beforeSend: function() {
+                                        },complete: function() {
+                                        },success: function(html) {
+                                            $('body').append('<div id="modal-image" class="modal fade">' + html + '</div>');
+                                            $('#modal-image').modal('show');
+                                            $('#modal-image').delegate('.image-box .thumbnail','click', function(e) {
+                                                e.preventDefault();
+                                                $(element).summernote('insertImage', $(this).attr('href'));
+                                                $('#modal-image').modal('hide');
+                                            });
+                                        }
+                                    });                     
+                                }
+                            });
+                        
+                            return button.render();
+                        }
+                    }
+                });
+            }
+         
+         $(document).delegate(".view-all",'click',function(){
+            var data = $(this).find("span").html();
+            var html = '<table class="table table-hover">';
+            data = JSON.parse(data);
+            html += '<tr>';
+            html += '   <th>IP</th>';
+            html += '   <th width="30px">Country</th>';
+            html += '</tr>';
+         
+            $.each(data, function(i,j){
+               html += '<tr>';
+               html += '   <td>'+ j['ip'] +'</td>';
+               html += '   <td><img style="width: 20px;" src="http://localhost/afrocentric/assets/vertical/assets/images/flags/'+ j['country_code'].toLowerCase() +'.png" ></td>';
+               html += '</tr>';
+            })
+            html += '</table>';
+         
+            $("#ip-flag_model").modal("show");
+            $("#ip-flag_model .modal-body").html(html);
+         })
+         $(document).delegate(".copy-input input",'click', function(){
+            $(this).select();
+         })
+         $(document).delegate('[copyToClipboard]',"click", function(){
+            $this = $(this);
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($(this).attr('copyToClipboard')).select();
+            document.execCommand("copy");
+            $temp.remove();
+            $this.tooltip('hide').attr('data-original-title', 'Copied!').tooltip('show');
+            setTimeout(function() { $this.tooltip('hide'); }, 500);
+         });
+         $('[copyToClipboard]').tooltip({
+           trigger: 'click',
+           placement: 'bottom'
+         });
+      </script>
+      <script>
+         /* BEGIN SVG WEATHER ICON */
+         if (typeof Skycons !== 'undefined'){
+            var icons = new Skycons(
+            {"color": "#fff"},
+            {"resizeClear": true}
+            ),
+            list  = [
+            "clear-day", "clear-night", "partly-cloudy-day",
+            "partly-cloudy-night", "cloudy", "rain", "sleet", "snow", "wind",
+            "fog"
+            ],
+            i;
+            
+            for(i = list.length; i--; )
+            icons.set(list[i], list[i]);
+            icons.play();
+         };
+         
+         // scroll
+         
+         $(document).on('ready',function() {
+                if($("#boxscroll").length > 0){
+               $("#boxscroll").niceScroll({cursorborder:"",cursorcolor:"#cecece",boxzoom:true});
+            }
+            if($("#boxscroll2").length > 0){
+               $("#boxscroll2").niceScroll({cursorborder:"",cursorcolor:"#cecece",boxzoom:true}); 
+            }
+         });
+         
+         function shownofication(id,url){
+            $.ajax({
+               type: "POST",
+               url: "http://localhost/afrocentric/usercontrol/updatenotify",
+               data:{'id':id},
+               dataType:'json',
+               success: function(data){
+                  window.location.href=data['location'];
+               }
+            });
+         }
+      </script>
+      <!-- <script src="http://localhost/afrocentric/assets/vertical/assets/plugins/RWD-Table-Patterns/dist/js/rwd-table.min.js" type="text/javascript"></script> -->
+      
+      <script type="text/javascript" src="assets/plugins/toastr/toastr.js"></script>
+      <script type="text/javascript">
+         var serverErrorCode  = {
+             100 : 'Continue',
+             101 : 'Switching Protocols',
+             102 : 'Processing', 
+             200 : 'OK',
+             201 : 'Created',
+             202 : 'Accepted',
+             203 : 'Non-Authoritative Information', 
+             204 : 'No Content',
+             205 : 'Reset Content',
+             206 : 'Partial Content',
+             207 : 'Multi-Status', 
+             208 : 'Already Reported', 
+             226 : 'IM Used', 
+             300 : 'Multiple Choices',
+             301 : 'Moved Permanently',
+             302 : 'Found',
+             303 : 'See Other', 
+             304 : 'Not Modified',
+             305 : 'Use Proxy', 
+             306 : 'Switch Proxy',
+             307 : 'Temporary Redirect', 
+             308 : 'Permanent Redirect', 
+             400 : 'Bad Request',
+             401 : 'Unauthorized',
+             402 : 'Payment Required',
+             403 : 'Forbidden',
+             404 : 'Not Found',
+             405 : 'Method Not Allowed',
+             406 : 'Not Acceptable',
+             407 : 'Proxy Authentication Required',
+             408 : 'Request Timeout',
+             409 : 'Conflict',
+             410 : 'Gone',
+             411 : 'Length Required',
+             412 : 'Precondition Failed',
+             413 : 'Request Entity Too Large',
+             414 : 'Request-URI Too Long',
+             415 : 'Unsupported Media Type',
+             416 : 'Requested Range Not Satisfiable',
+             417 : 'Expectation Failed',
+             418 : 'I\'m a teapot', 
+             419 : 'Authentication Timeout', 
+             420 : 'Enhance Your Calm', 
+             420 : 'Method Failure', 
+             422 : 'Unprocessable Entity', 
+             423 : 'Locked', 
+             424 : 'Failed Dependency', 
+             424 : 'Method Failure', 
+             425 : 'Unordered Collection', 
+             426 : 'Upgrade Required', 
+             428 : 'Precondition Required', 
+             429 : 'Too Many Requests', 
+             431 : 'Request Header Fields Too Large', 
+             444 : 'No Response', 
+             449 : 'Retry With', 
+             450 : 'Blocked by Windows Parental Controls', 
+             451 : 'Redirect', 
+             451 : 'Unavailable For Legal Reasons', 
+             494 : 'Request Header Too Large', 
+             495 : 'Cert Error', 
+             496 : 'No Cert', 
+             497 : 'HTTP to HTTPS', 
+             499 : 'Client Closed Request', 
+             500 : 'Internal Server Error',
+             501 : 'Not Implemented',
+             502 : 'Bad Gateway',
+             503 : 'Service Unavailable',
+             504 : 'Gateway Timeout',
+             505 : 'HTTP Version Not Supported',
+             506 : 'Variant Also Negotiates', 
+             507 : 'Insufficient Storage', 
+             508 : 'Loop Detected', 
+             509 : 'Bandwidth Limit Exceeded', 
+             510 : 'Not Extended', 
+             511 : 'Network Authentication Required', 
+             598 : 'Network read timeout error', 
+             599 : 'Network connect timeout error', 
+            }
+         
+         toastr.options = {
+           "closeButton": true,
+           "debug": false,
+           "newestOnTop": true,
+           "progressBar": true,
+           "positionClass": "toast-top-right",
+           "preventDuplicates": false,
+           "onclick": null,
+           "showDuration": "300",
+           "hideDuration": "20000",
+           "timeOut": "20000",
+           "extendedTimeOut": "20000",
+           "showEasing": "swing",
+           "hideEasing": "linear",
+           "showMethod": "fadeIn",
+           "hideMethod": "fadeOut"
+         }
+         
+         function show_tost(type,title,message) {
+            toastr[type](message,title )
+         }
+         
+         $(".btn-setting").on('click',function(){
+            $this = $(this);
+            $("#setting-widzard").modal({
+               backdrop: 'static',
+               keyboard: false
+            });
+         
+            $("#setting-widzard").html('Loading');
+         
+            $.ajax({
+               url:'http://localhost/afrocentric/setting/getModal',
+               type:'POST',
+               dataType:'json',
+               data:{
+                  'key' : $this.attr('data-key'),
+                  'type' : $this.attr('data-type'),
+               },
+               beforeSend:function(){ $this.btn("loading"); },
+               complete:function(){ $this.btn("reset"); },
+               success:function(json){
+                  if(json['html']){
+                     $("#setting-widzard").html(json['html']);
+                  }
+               },
+            })
+         })
+         
+         
+            $(document).delegate('.allow-number','keypress keyup blur',function(event) {        
+               $(this).val($(this).val().replace(/[^0-9\.]/g,''));
+                if ((event.which != 46 || $(this).val().indexOf('.') != -1) && (event.which < 48 || event.which > 57)) {
+                    event.preventDefault();
+                }
+            });
+         
+            $(document).delegate("[data-log]",'click',function(){
+               $this = $(this);
+         
+               var data = {};
+               var search = $this.attr('data-extra');
+               if(search){
+               data = JSON.parse('{"' + decodeURI(search).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g,'":"') + '"}')
+               }
+         
+               data['type'] =$this.attr("data-log");
+         
+               $.ajax({
+                  url:'http://localhost/afrocentric/usercontrol/logs',
+                  type:'POST',
+                  dataType:'json',
+                  data:data,
+                  beforeSend:function(){$this.btn("loading");},
+                  complete:function(){$this.btn("reset");},
+                  success:function(json){
+                     if(json['html']){
+                        $("#log-widzard").modal({
+                        backdrop: 'static',
+                        keyboard: false
+                     });
+                     $("#log-widzard").html(json['html']);
+                  }
+                  },
+               })
+            })
+         
+            $(".password-group .input-group-prepend button").on('click',function(){
+            $input = $(this).parents(".password-group").find("input");
+            $i = $(this).parents(".password-group").find("i");
+               if($i.hasClass("fa-eye")){
+                  $i.addClass("fa-eye-slash");
+                  $i.removeClass("fa-eye");
+                  $input.attr('type','text');
+               } else {
+                  $i.addClass("fa-eye");
+                  $i.removeClass("fa-eye-slash");
+                  $input.attr('type','password');
+               }
+            })
+         
+            $(document).ajaxComplete(function myErrorHandler(event, xhr, ajaxOptions, thrownError) {
+               var statusCode = xhr.status;
+         
+               
+               if(statusCode != 200 && ajaxOptions.type == 'POST'){           
+               var title = '';
+               var body = '';
+         
+               title = 'Internal Server Error';
+               body += '<h3>Sorry, an error has occured.</h3>';
+         
+               if(serverErrorCode[statusCode]){
+                  body += "<p>Error Message : " + serverErrorCode[statusCode] + "</p>";
+                  body += "<p>Error Code : " + statusCode + "</p>";
+         
+                  $("#model-ajaxError .modal-title").html(title);
+                  $("#model-ajaxError .modal-body .-body").html(body);
+                  $("#model-ajaxError").modal("show");
+               } else {
+                  body += '<p>Error Message : Uknown Error </p>';
+               }
+         
+               $(".btn-loading").removeClass('btn-loading');
+               }
+         });
+      </script>
+      <script>
+         function start_plan_expiration_timer() {
+            if($('span[data-time-remains]').length) {
+               let countdown = $('span[data-time-remains]').data('time-remains');
+               if(countdown > 0) {
+                  Window.GlobaleCountDownDate = (new Date().getTime()) + (countdown * 1000);
+                  var GlobaleCountDownDateInterval = setInterval(function() {
+                     var now = new Date().getTime() + 1000;
+                     distance = ((Window.GlobaleCountDownDate - now) / 1000).toFixed(0);
+         
+                     var days        = Math.floor(distance/24/60/60);
+                     var hoursLeft   = Math.floor((distance) - (days*86400));
+                     var hours       = Math.floor(hoursLeft/3600);
+                     var minutesLeft = Math.floor((hoursLeft) - (hours*3600));
+                     var minutes     = Math.floor(minutesLeft/60);
+                     var remainingSeconds = distance % 60;
+         
+                     let string = "";
+         
+                     string += (days > 0) ? ('0'+days).slice(-2)+" days " : ""; 
+         
+                     string += (hours > 0) ? ('0'+hours).slice(-2)+" Hours " : ""; 
+         
+                     string += (minutes > 0) ? ('0'+minutes).slice(-2)+" Minutes " : ""; 
+         
+                     string += (remainingSeconds > 0) ? ('0'+remainingSeconds).slice(-2)+" Seconds " : "00 Seconds"; 
+         
+                     $('span[data-time-remains]').text(string);
+                     if (distance <= 0) {
+                        $('span[data-time-remains]').text('Plan Has Expired');
+                        window.location.reload();
+                        clearInterval(GlobaleCountDownDateInterval);
+                     }
+                  }, 1000);
+               }
+            }  
+         }
+      </script>
+   </body>
+</html>
